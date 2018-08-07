@@ -16,5 +16,9 @@
     "url": "https://github.com/aludwin1/trip_planner_pt1/issues"
   },
   "homepage": "https://github.com/aludwin1/trip_planner_pt1#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }

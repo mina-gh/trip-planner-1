@@ -1,7 +1,7 @@
-import {API_KEY}  from './consts.js';
+const mapboxgl = require('mapbox-gl');
+const buildMarker = require('./marker');
 
-const mapboxgl = require("mapbox-gl");
-const buildMarker = require('./marker.js');
+import {API_KEY} from './consts';
 
 mapboxgl.accessToken = API_KEY;
 

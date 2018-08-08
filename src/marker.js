@@ -6,8 +6,7 @@ const iconURLs = {
     activities: "http://i.imgur.com/WbMOfMl.png"
 };
 
-  const buildMarker = (type, coords) => {
-    console.log(coords);
+const buildMarker = (type, coords) => {
     const markerDomEl = document.createElement("div"); // Create a new, detached DIV
     markerDomEl.style.width = "32px";
     markerDomEl.style.height = "39px";
